@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<!--Robert Peña, 000738570. Modified the template December 6 2019
+Page for registering new users-->
+
+<head>
+    <title>Strings&Things Registration</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/user_requests.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/string_style.css">
+</head>
+
+<body>
+    <nav><a href="index.html">Main Menu</a><a href="registration.html">Registration</a></nav>
+    <h1>Strings&Things</h1>
+    <div>
+        <form method="POST">
+            <p>Enter a new user name</p>
+            <input type="text" maxlength="30" name="username" id="username" placeholder="Username"><br>
+
+            <p>Enter a password that is at least 8 characters(one uppercase, one lowercase, one number)</p><br>
+            <input type="password" maxlength="30" name="password" id="password" placeholder="Password"><br><br>
+            
+
+
+            <input type="submit" id="register" value="Register" class = menuButton>
+        </form>
+    </div>
+    <p id="status"></p>
+</body>
+
+</html>

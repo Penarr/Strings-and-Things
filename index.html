@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<!--Robert Peña, 000738570. Modified the template December 6 2019
+Change Log:
+Removed all columns but password and username in the user table. They were unnecesssary for the purposes of this project.js
+Reduced use of Jquery. Did not find it easier to use and it increased run time.
+Should have used more triggers and constraints in database to make life easier. 
+-->
+
+<head>
+    <title>Shopping List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/string_style.css">
+</head>
+
+<body>
+    <nav><a href="index.html">Main Menu</a><a href="registration.html">Registration</a></nav>
+    <h1>Strings&Things</h1>
+    <div>
+        <form action="login.php" method="POST">
+            <input type="text" maxlength="30" name="username" id="username" placeholder="Username">
+            <input type="password" maxlength="30" name="password" id="password" placeholder="Password">
+            <input type="submit" id="login" value="Login" class = menuButton>
+        </form>
+    </div>
+
+</body>
+
+</html>
